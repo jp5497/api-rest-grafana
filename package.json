@@ -1,0 +1,33 @@
+{
+  "name": "api-rest-grafana",
+  "version": "1.0.0",
+  "description": "projeto para criação de API Rest que conecta em 3 outras apis para coletar informações e direciona para um painel no grafana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jp5497/api-rest-grafana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jp5497/api-rest-grafana/issues"
+  },
+  "homepage": "https://github.com/jp5497/api-rest-grafana#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prisma": "^6.4.1",
+    "redis": "^4.7.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "ts-node": "^10.9.2"
+  }
+}
